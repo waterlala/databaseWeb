@@ -1,0 +1,101 @@
+.topRunText{
+    font-weight:bold;
+    font-size:8px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 0%;
+    height:120px;
+    background-color: white;
+}
+
+.topList {
+    display: flex;
+    background: white;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    background-color:rgb(59,89,152);
+}
+
+.home{
+    margin: 0.5% 0% 0% 0%;
+}
+
+.home img{
+    width:80%;
+}
+
+.account {
+    display: inline-flex;
+    margin: 0.5% 0.8% 1.6% 0%;
+}
+
+.account a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    color:black;
+}
+
+.sign_in {
+    margin-right: 24px;
+}
+
+.topList p{
+    margin:0px 0px 0px 0px;
+    font-size:25px;
+    color:rgb(48,48,48);
+    font-weight:bold;
+}
+
+.topList li{ 
+    padding:0px 0px;
+    width:70px;
+    height:30px;
+    list-style-type: none;
+}
+
+.topList li button{
+    margin:0px 0px 0px 0px;
+    height:100%;
+    width: 70px;
+    border:0px;
+    color:white;
+    background-color:rgb(59,89,152);
+}
+
+.main-content{
+}
+
+.footerline{
+    width: 100%;
+    background-color:rgb(220,220,220);
+    height: 2px;
+}
+.footertext p {
+    text-align: center;
+    font-size:12px;
+    font-weight:bold;
+}
+.html{
+    height: 100%;
+    margin: 0px;
+}
+body{
+    height: 100%;
+    margin: 0px;
+    margin: 0% 22.5% 0% 22.5%;
+}
+.wrapper{
+    min-height: 100%;
+}
+.header{
+    height: 165px;
+}
+.footer{
+    position: absolute;
+    width: 55%;
+    bottom: 0;
+}

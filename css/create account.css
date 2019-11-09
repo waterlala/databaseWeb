@@ -1,77 +1,3 @@
-.total{
-    max-width:1080px;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-
-.top {
-    display: flex;
-    justify-content: space-between;
-    padding: 0% 0%;
-    height:160px;
-    background-color: white;
-}
-
-.topList {
-    display: flex;
-    background: white;
-    margin:0px 0px 0px 0px;
-    padding:0px 0px 0px 0px;
-    background-color:rgb(59,89,152);
-}
-
-
-.topRunText{
-    font-weight:bold;
-    font-size:8px;
-}
-.topList li{ 
-    padding:0px 0px;
-    width:70px;
-    height:30px;
-    list-style-type: none;
-}
-
-.topList li button{
-    margin:0px 0px 0px 0px;
-    height:100%;
-    width: 70px;
-    border:0px;
-    color:white;
-    background-color:rgb(59,89,152);
-}
-.topList p{
-    margin:0px 0px 0px 0px;
-    font-size:25px;
-    color:rgb(48,48,48);
-    font-weight:bold;
-}
-/* top home */
-.top .home i {
-    font-size: 80px;
-}
-.home{
-    margin: 0.5% 0% 0% 0%;
-}
-.home img{
-    width:80%;
-}
-/*top account*/
-.account {
-    display: inline-flex;
-    margin: 0.5% 0.8% 1.6% 0%;
-}
-.account a {
-    text-decoration: none;
-    font-size: 13px;
-    font-weight: bold;
-    color:black;
-}
-.sign_in {
-    margin-right: 24px;
-}
-
 .maincontent{
     margin:auto;
     margin-top:50px;
@@ -106,10 +32,10 @@
 }
 .accountName{
     margin-top:10px;
-    padding-left:110px;
+    padding-left:25%;
 }
 .accountButton{
-    margin-left:21%;
+    margin-left:25%;
     margin-top:10px;
     
 }
