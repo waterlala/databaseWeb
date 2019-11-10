@@ -1,9 +1,28 @@
-.topRunText{
+html{
+    height: 100%;
+    margin: 0px;
+}
+
+body{
+    height: 100%;
+    margin: 0px;
+    margin: 0% 22.5% 0% 22.5%;
+}
+
+.wrapper{
+    min-height: 100%;
+}
+
+.header{
+    height: 165px;
+}
+
+.header marquee{
     font-weight:bold;
     font-size:8px;
 }
 
-.top {
+.header_top {
     display: flex;
     justify-content: space-between;
     padding: 0% 0%;
@@ -11,7 +30,31 @@
     background-color: white;
 }
 
-.topList {
+.header_home{
+    margin: 0.5% 0% 0% 0%;
+}
+
+.header_home img{
+    width:80%;
+}
+
+.header_account {
+    display: inline-flex;
+    margin: 0.5% 0.8% 1.6% 0%;
+}
+
+.header_account a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    color:black;
+}
+
+.header_sign_in {
+    margin-right: 24px;
+}
+
+.header_list {
     display: flex;
     background: white;
     margin:0px 0px 0px 0px;
@@ -19,45 +62,21 @@
     background-color:rgb(59,89,152);
 }
 
-.home{
-    margin: 0.5% 0% 0% 0%;
-}
-
-.home img{
-    width:80%;
-}
-
-.account {
-    display: inline-flex;
-    margin: 0.5% 0.8% 1.6% 0%;
-}
-
-.account a {
-    text-decoration: none;
-    font-size: 13px;
-    font-weight: bold;
-    color:black;
-}
-
-.sign_in {
-    margin-right: 24px;
-}
-
-.topList p{
+.header_list p{
     margin:0px 0px 0px 0px;
     font-size:25px;
     color:rgb(48,48,48);
     font-weight:bold;
 }
 
-.topList li{ 
+.header_list li{ 
     padding:0px 0px;
     width:70px;
     height:30px;
     list-style-type: none;
 }
 
-.topList li button{
+.header_list li button{
     margin:0px 0px 0px 0px;
     height:100%;
     width: 70px;
@@ -66,36 +85,24 @@
     background-color:rgb(59,89,152);
 }
 
-.main-content{
+.main_content{
 }
 
-.footerline{
-    width: 100%;
-    background-color:rgb(220,220,220);
-    height: 2px;
-}
-.footertext p {
-    text-align: center;
-    font-size:12px;
-    font-weight:bold;
-}
-.html{
-    height: 100%;
-    margin: 0px;
-}
-body{
-    height: 100%;
-    margin: 0px;
-    margin: 0% 22.5% 0% 22.5%;
-}
-.wrapper{
-    min-height: 100%;
-}
-.header{
-    height: 165px;
-}
 .footer{
     position: absolute;
     width: 55%;
     bottom: 0;
 }
+
+.footer_line{
+    width: 100%;
+    background-color:rgb(220,220,220);
+    height: 2px;
+}
+
+.footer_text p {
+    text-align: center;
+    font-size:12px;
+    font-weight:bold;
+}
+

@@ -9,8 +9,9 @@
     </head>
     <body>
         <div class = "wrapper">
+            <!--header-->
             <div class = "header">
-                <marquee class="topRunText" scrollamount=3> 
+                <marquee scrollamount=3> 
                     彭柏誠已充值:12300元 , 
                     彭柏誠已充值:72000元 , 
                     彭柏誠已充值:8800元 , 
@@ -22,80 +23,66 @@
                     彭柏誠已充值:2000元 , 
                     彭柏誠已充值:70000元
                 </marquee>
-                <div class="top">
-                    <div class="home">
+                <div class="header_top">
+                    <div class="header_home">
                         <a href="index.html">
                             <img src="./image/allie_logo.jpg" />
                         </a>
                     </div>
-                    <div class="account">
-                        <div class="sign_in">
-                            <a href="sign in.html">
-                                登入
-                            </a>
+                    <div class="header_account">
+                        <div class="header_sign_in">
+                            <a href="sign in.html">登入</a>
                         </div>
-                        <div class="create_account">
-                            <a href="create account.html">
-                                註冊
-                            </a>
+                        <div class="header_create_account">
+                            <a href="create account.html">註冊</a>
                         </div>
                     </div>
                 </div>
-                <ul class = "topList">
+                <ul class = "header_list">
                     <li>
-                        <button onclick="location.href='index.html'">
-                            你好
-                        </button>
-                        
+                        <button onclick="location.href='index.html'">你好</button>
                     </li>
-                    <p>
-                        |
-                    </p>
+                    <p>|</p>
                     <li>
-                        <button onclick="location.href='index.html'">
-                            好嗎
-                        </button>
+                        <button onclick="location.href='index.html'">好嗎</button>
                     </li>
-                    <p>
-                        |
-                    </p>
+                    <p>|</p>
                     <li>
-                        <button onclick="location.href='index.html'">
-                            很好
-                        </button>
+                        <button onclick="location.href='index.html'">很好</button>
                     </li>
                 </ul>
             </div>
-            <div class="main-content">
-                <div class="maincontent">
-                    <div class="accountBox">
-                        <div class="forminput">
-                            <div class="accountName">
-                                <label for="account" class="accountLabel">帳號 :</label>
+            <!--headerOFF-->
+            <!--content-->
+            <div class="main_content">
+                <div class="content">
+                    <div class="content_box">
+                        <div class="content_account">
+                            <div class="content_account_text">
+                                <label for="account" class="account_label">帳號 :</label>
                                 <input type="text" id="account" name="name" maxlength="15" required>
                             </div>    
-                            <div class="accountLine"></div>
+                            <div class="content_account_line"></div>
                             
-                            <div class="accountName">
-                                <label for="password" class="passwordLabel">密碼 :</label>
+                            <div class="content_account_text">
+                                <label for="password" class="password_label">密碼 :</label>
                                 <input type="password" id="password" name="password" maxlength="15" required>
                             </div> 
-                            <div class="accountLine"></div>
+                            <div class="content_account_line"></div>
 
-                            <div class="accountPassWordAgain accountName">
-                                <label for="password" class="passwordLabel">確認密碼 :</label>
-                                <input type="password" id="password" name="password" maxlength="15" required>
+                            <div class="content_account_password_again content_account_text">
+                                <label for="password" class="password">確認密碼 :</label>
+                                <input type="password" id="password_again" name="password_again" maxlength="15" required>
                             </div> 
-                            <div class="accountLine"></div>
+                            <div class="content_account_line"></div>
 
-                            <div class="accountEmail accountName">
-                                <label for="password" class="passwordLabel">Email :</label>
-                                <input type="password" id="password" name="password" maxlength="15" required>
+                            <div class="content_account_email content_account_text">
+                                <label for="email" class="email_label">Email :</label>
+                                <input type="email" id="email" name="email" maxlength="15" required>
                             </div> 
-                            <div class="accountLine"></div>
-
-                            <div class="accountButton">
-                                <button>
+                            <div class="content_account_line"></div>
+                            <div class="content_account_button">
+                                <button id = "create_account_button">
                                     提交
                                 </button>
                             </div>
@@ -103,14 +90,17 @@
                     </div>
                 </div>
             </div>
+            <!--contentOFF-->
+            <!--footer-->
             <div class="footer">
-                <div class="footerline"></div>
-                <div class="footertext">
+                <div class="footer_line"></div>
+                <div class="footer_text">
                     <p>
                         phone:090909098787878787
                     </p>
                 </div> 
             </div>
+            <!--footerOFF-->
         <div>
     </body>
 </html>

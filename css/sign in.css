@@ -1,4 +1,4 @@
-.maincontent{
+.content{
     margin:auto;
     margin-top: 50px;
     width:70%;
@@ -9,18 +9,18 @@
     border-style: solid;
 }
 
-.accountBox{
+.content_box{
     margin:auto;
     margin-top:55px;
     height:160px;
     width:70%;
 }
 
-.forminput{
+.content_account{
     margin-top:50px;
 }
 
-.accountLine{
+.content_account_line{
     margin-top:8px;
     margin-left:50px;
     margin-right:50px;
@@ -28,25 +28,25 @@
     background-color:rgb(220,220,220);
 }
 
-.accountName label{
+.content_account_text label{
     font-size: 13px;
 }
 
-.accountName input{
+.content_account_text input{
     margin-left:10px;
 }
 
-.accountName{
+.content_account_text{
     margin-top:10px;
     padding-left:25%;
 }
 
-.accountButton{
+.content_account_button{
     margin-left:25%;
     margin-top:10px;
 }
 
-.accountButton button{
+.content_account_button button{
     background:rgb(59,89,152);
     width:50px;
     height:25px;
